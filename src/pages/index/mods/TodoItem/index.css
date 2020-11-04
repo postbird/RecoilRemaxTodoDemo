@@ -1,0 +1,41 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  /* height: 100px; */
+  margin-bottom: 20px;
+}
+
+.itemWrapLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text {
+  display: inline-block;
+  margin-left: 20px;
+  max-width: 500px;
+  word-break: break-all;
+  font-size: 30px;
+  color: #FFF;
+}
+
+.textCompleted {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  margin: 20px 32px;
+  /* background-color: #D3D3D3; */
+}
+
+.deleteIcon {
+  display: flex;
+  align-self: flex-end;
+}

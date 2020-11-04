@@ -1,0 +1,34 @@
+.wrap {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-image: linear-gradient(to right, #FF9000, #FF5000);
+}
+
+.plusFirst {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #FFF;
+}
+
+.plusSecond {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #FFF;
+}

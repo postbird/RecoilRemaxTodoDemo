@@ -1,0 +1,149 @@
+.wrap {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+
+.maskIn {
+  opacity: 0;
+  animation: maskIn 200ms ease-in-out forwards;
+}
+
+@keyframes maskIn {
+  form {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.maskOut {
+  opacity: 1;
+  animation: maskOut 200ms ease-in-out forwards;
+}
+
+@keyframes maskOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.panel {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 40%;
+  background-color: #FFF;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  overflow: hidden;
+}
+
+.panelIn {
+  transform: translateY(100%);
+  animation: panelIn 300ms ease-in-out forwards;
+}
+
+@keyframes panelIn {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.panelOut {
+  transform: translateY(0%);
+  animation: panelOut 300ms ease-in-out forwards;
+}
+
+@keyframes panelOut {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  flex: 1;
+  border-bottom: solid 1px #666;
+  font-size: 30px;
+  line-height: 50px;
+  height: 100px;
+}
+
+.inputPlaceHolder {
+  font-size: 30px;
+}
+
+.actionWrap {
+  padding: 60px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.actionOk {
+  width: 100%;
+  background-image: linear-gradient(to right, #FF9000, #FF5000);
+}
+
+.actionCancel {
+  margin-top: 30px;
+  width: 100%;
+  border-color: #666;
+}
+
+.actionTextOk {
+  color: #FFF;
+  font-size: 36px;
+}
+
+.actionTextCancel {
+  color: #666;
+  font-size: 36px;
+}

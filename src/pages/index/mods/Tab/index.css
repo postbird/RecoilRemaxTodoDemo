@@ -1,0 +1,37 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.tabItem {
+  display: flex;
+  padding: 20px 0px;
+  margin-right: 60px;
+  border-bottom: solid transparent 1px;
+  transition: all linear 100ms;
+}
+
+.tabItemActive {
+  border-bottom: solid #CCC 1px;
+}
+
+.tabName {
+  color: #FFF;
+  font-size: 30px;
+}
+
+.tabCount {
+  margin-left: 10px;
+  color: #FFF;
+  font-weight: bold;
+}

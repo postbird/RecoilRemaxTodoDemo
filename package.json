@@ -1,0 +1,22 @@
+{
+  "name": "RecoilTodoList",
+  "private": true,
+  "version": "1.0.0",
+  "description": "RecoilTodoList",
+  "main": "index.js",
+  "keywords": [],
+  "author": "ptbird@yeah.net",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "recoil": "^0.1.2",
+    "remax": "^2.7.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

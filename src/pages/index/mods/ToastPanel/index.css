@@ -1,0 +1,42 @@
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  position: relative;
+  width: 70%;
+  height: 36%;
+  background-color: #CCC;
+  border-radius: 24rpx;
+  padding: 50px;
+}
+
+.text {
+  text-align: justify;
+  display: flex;
+  font-size: 26px;
+  line-height: 40px;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.close {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 26px;
+  line-height: 40px;
+  color: #FFF;
+  padding: 10px 60px;
+  background-image: linear-gradient(to right, #FF9000, #FF5000);
+  border-radius: 30px;
+}
